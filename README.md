@@ -1,50 +1,51 @@
-# React + TypeScript + Vite
+# Indian Agriculture Data Analysis
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project performs data analysis on the Indian Agriculture dataset from the National Data and Analytics Platform (NITI Aayog). It aggregates crop production data and visualizes the results using tables and bar charts. 
 
-Currently, two official plugins are available:
+The table component displays the crop with the maximum and minimum production for each year from 1950 to 2020. The bar chart component visualizes the average yield of each crop over the years.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- Table displaying the crop with maximum and minimum production for each year (1950-2020).
+- Bar chart visualizing the average yield of each crop between 1950-2020.
+- Data is processed using TypeScript, Mantine for the table, and Apache ECharts for the bar chart.
+- Missing values in the dataset are treated as 0.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Instructions
 
-- Configure the top-level `parserOptions` property like this:
+1. Clone the repository.
+2. Run `yarn install` to install dependencies.
+3. Run `yarn dev` to start the development server.
+4. Open your browser and visit `http://localhost:3000`.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Usage  
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+- The page will display:
+  1. **A table** showing the crop with the maximum and minimum production for each year.
+  2. **A bar chart** visualizing the average yield of each crop over the years.
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## Screenshots
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+[Table Screenshot]
+
+![Table1 IMG](https://github.com/user-attachments/assets/b0122fae-1b21-4ce0-9469-335ea594e9d6)
+
+![Table2 IMG](https://github.com/user-attachments/assets/4d05a2d4-508e-45b8-9b76-f3c6a6f8520e)
+
+## Data Source
+
+The dataset is sourced from the National Data and Analytics Platform, NITI Aayog. You can find more information about the dataset at: 
+
+[National Data and Analytics Platform - NITI Aayog](https://ndap.niti.gov.in/)
+
+## Acknowledgments
+
+- Thanks to Mantine for their UI components.
+- Thanks to Apache ECharts for the data visualization library.
+
+
+[Bar Chart Screenshot]
+
+![BarChart IMG](https://github.com/user-attachments/assets/38506d7c-d827-456d-bee0-34802e2fee1c)
+
+
