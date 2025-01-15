@@ -32,6 +32,10 @@ The table component displays the crop with the maximum and minimum production fo
 
 ![Table2 IMG](https://github.com/user-attachments/assets/4d05a2d4-508e-45b8-9b76-f3c6a6f8520e)
 
+[Bar Chart Screenshot]
+
+![BarChart IMG](https://github.com/user-attachments/assets/38506d7c-d827-456d-bee0-34802e2fee1c)
+
 ## Data Source
 
 The dataset is sourced from the National Data and Analytics Platform, NITI Aayog. You can find more information about the dataset at: 
@@ -42,10 +46,4 @@ The dataset is sourced from the National Data and Analytics Platform, NITI Aayog
 
 - Thanks to Mantine for their UI components.
 - Thanks to Apache ECharts for the data visualization library.
-
-
-[Bar Chart Screenshot]
-
-![BarChart IMG](https://github.com/user-attachments/assets/38506d7c-d827-456d-bee0-34802e2fee1c)
-
 
