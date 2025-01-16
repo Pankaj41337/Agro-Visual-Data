@@ -1,4 +1,4 @@
-# Indian Agriculture Data Analysis
+# Agro Visual Data 
 
 This project performs data analysis on the Indian Agriculture dataset from the National Data and Analytics Platform (NITI Aayog). It aggregates crop production data and visualizes the results using tables and bar charts. 
 
